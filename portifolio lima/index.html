@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfólio de estudante de desenvolvimento web, com projetos e habilidades em HTML e CSS.">
+    <title>Portfólio | Estudante de Desenvolvimento Web</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="site-header">
+        <nav class="container nav" aria-label="Navegação principal">
+            <a class="brand" href="#inicio">Meu<span>Portfólio</span></a>
+            <div class="nav-links">
+                <a href="#sobre">Sobre</a>
+                <a href="#projetos">Projetos</a>
+                <a href="#habilidades">Habilidades</a>
+                <a href="#contato">Conexões</a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="carrossel container" id="inicio" aria-label="Destaques do portfólio">
+            <input class="carrossel-radio" type="radio" name="destaque" id="slide-perfil" checked>
+            <input class="carrossel-radio" type="radio" name="destaque" id="slide-projeto">
+            <input class="carrossel-radio" type="radio" name="destaque" id="slide-habilidades">
+
+            <div class="carrossel-janela">
+                <div class="carrossel-faixa">
+                    <article class="carrossel-slide slide-perfil">
+                        <div class="slide-conteudo">
+                            <p class="eyebrow">Estudante de Desenvolvimento Web</p>
+                            <h1>Olá, eu sou <span>Gabriel</span>.</h1>
+                            <p class="hero-text">
+                                Estou aprendendo a criar páginas web com HTML e CSS. Este portfólio
+                                reúne meus estudos, projetos e próximos passos na tecnologia.
+                            </p>
+                            <a class="button button-primary" href="#projetos">Conheça meus projetos</a>
+                        </div>
+                        <img class="foto-perfil" src="images/foto%20gabriel.jpg" alt="Foto de Gabriel">
+                    </article>
+
+                    <article class="carrossel-slide slide-projeto">
+                        <div class="slide-conteudo">
+                            <p class="eyebrow">Projeto em destaque</p>
+                            <h2>Vida Selvagem das Orcas</h2>
+                            <p class="hero-text">
+                                Uma página educativa criada para praticar estrutura HTML,
+                                estilos CSS e organização de conteúdo.
+                            </p>
+                            <a class="button button-primary" href="projetos/orcas.html">Ver projeto</a>
+                        </div>
+                        <div class="projeto-destaque" aria-hidden="true">
+                            <span>ORCA</span>
+                            <span>WEB</span>
+                        </div>
+                    </article>
+
+                    <article class="carrossel-slide slide-habilidades">
+                        <div class="slide-conteudo">
+                            <p class="eyebrow">Aprendizado em andamento</p>
+                            <h2>Construindo minha base na web</h2>
+                            <p class="hero-text">
+                                Praticando os fundamentos para transformar ideias em páginas
+                                organizadas e responsivas.
+                            </p>
+                            <a class="button button-primary" href="#habilidades">Minhas habilidades</a>
+                        </div>
+                        <ul class="slide-tags" aria-label="Tecnologias e competências">
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>Flexbox</li>
+                            <li>Responsividade</li>
+                        </ul>
+                    </article>
+                </div>
+            </div>
+
+            <img class="cavalo-animado" src="images/cavalo.svg" alt="Ilustração de um cavalo correndo">
+
+            <div class="carrossel-controles" role="group" aria-label="Escolher destaque">
+                <label for="slide-perfil">Apresentação</label>
+                <label for="slide-projeto">Projeto</label>
+                <label for="slide-habilidades">Habilidades</label>
+            </div>
+        </section>
+
+        <section class="section container" id="sobre">
+            <p class="eyebrow">Um pouco da minha trajetória</p>
+            <h2>Sobre mim</h2>
+            <p class="section-intro">
+                Sou estudante e estou desenvolvendo minha base em criação de sites.
+                Tenho interesse em transformar ideias em páginas claras, acessíveis e
+                agradáveis de usar. Meu objetivo é continuar praticando e evoluindo
+                em desenvolvimento front-end.
+            </p>
+        </section>
+
+        <section class="section section-tinted" id="projetos">
+            <div class="container">
+                <p class="eyebrow">O que venho criando</p>
+                <h2>Projetos</h2>
+                <article class="project-card">
+                    <a class="project-image" href="projetos/orcas.html" aria-label="Abrir demonstração do projeto Vida Selvagem das Orcas">
+                        <img src="images/orca.svg" alt="">
+                    </a>
+                    <div class="project-content">
+                        <p class="project-type">Projeto de estudo</p>
+                        <h3>Vida Selvagem das Orcas</h3>
+                        <p>
+                            Página educativa sobre orcas, feita para praticar estruturação
+                            de conteúdo, navegação e estilos visuais com HTML e CSS.
+                        </p>
+                        <ul class="tag-list" aria-label="Tecnologias utilizadas">
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>Flexbox</li>
+                        </ul>
+                        <a class="text-link" href="projetos/orcas.html">Ver demonstração <span aria-hidden="true">→</span></a>
+                    </div>
+                </article>
+                <p class="project-note">
+                    O repositório público deste projeto ainda não foi informado.
+                </p>
+            </div>
+        </section>
+
+        <section class="section container" id="habilidades">
+            <p class="eyebrow">Ferramentas e competências</p>
+            <h2>Habilidades</h2>
+            <div class="skills-grid">
+                <article class="skill-card">
+                    <h3>HTML</h3>
+                    <p>Estruturação semântica de páginas e organização de conteúdo.</p>
+                </article>
+                <article class="skill-card">
+                    <h3>CSS</h3>
+                    <p>Estilização, cores, tipografia, espaçamento e efeitos visuais.</p>
+                </article>
+                <article class="skill-card">
+                    <h3>Flexbox</h3>
+                    <p>Alinhamento e distribuição de elementos em layouts de página.</p>
+                </article>
+                <article class="skill-card">
+                    <h3>Aprendizado contínuo</h3>
+                    <p>Curiosidade, prática e vontade de melhorar a cada projeto.</p>
+                </article>
+            </div>
+        </section>
+
+        <section class="section contact-section" id="contato">
+            <div class="container contact-content">
+                <p class="eyebrow">Vamos nos conectar</p>
+                <h2>Conexões e redes</h2>
+                <p>Encontre meus perfis profissionais:</p>
+                <div class="social-links">
+                    <a class="button button-primary" href="https://github.com/gabrielfernandes200" target="_blank" rel="noopener noreferrer">GitHub</a>
+                    <a class="button button-outline" href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+                    <a class="button button-outline" href="https://www.instagram.com/gafernandes123?fqnt=MWk1bnZmNHJjbDE4OA==" target="_blank" rel="noopener noreferrer">Instagram</a>
+                </div>
+                <p class="profile-note">Troque os endereços acima pelos links dos seus perfis pessoais.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <p>Portfólio de <span>[Seu nome]</span> · Desenvolvido com HTML e CSS.</p>
+        </div>
+    </footer>
+</body>
+</html>

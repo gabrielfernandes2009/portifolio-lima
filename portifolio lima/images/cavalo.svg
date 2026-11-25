@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 260" width="320" height="260" role="img" aria-label="Ilustracao de um cavalo marrom">
+  <defs>
+    <linearGradient id="pelagem-principal" x1="15%" y1="10%" x2="85%" y2="90%">
+      <stop offset="0%" stop-color="#b45309"/>
+      <stop offset="50%" stop-color="#92400e"/>
+      <stop offset="100%" stop-color="#78350f"/>
+    </linearGradient>
+    <linearGradient id="pelagem-sombra" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#78350f"/>
+      <stop offset="100%" stop-color="#451a03"/>
+    </linearGradient>
+    <linearGradient id="crina-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fcd34d"/>
+      <stop offset="55%" stop-color="#d97706"/>
+      <stop offset="100%" stop-color="#92400e"/>
+    </linearGradient>
+  </defs>
+
+  <ellipse cx="162" cy="236" rx="92" ry="9" fill="#020617" opacity="0.35"/>
+
+  <path fill="url(#pelagem-sombra)" d="M92 142 C82 158 82 178 86 196 L84 226 L93 226 L97 195 C102 180 108 162 110 144 Z"/>
+  <path fill="#270e02" d="M83 225 L93 225 L96 233 L81 233 Z"/>
+
+  <path fill="url(#pelagem-sombra)" d="M192 142 C198 158 206 168 216 174 L228 192 L221 196 L206 179 C194 170 186 158 182 142 Z"/>
+  <path fill="#270e02" d="M227 191 L220 195 L224 202 L232 197 Z"/>
+
+  <path fill="url(#crina-grad)" d="M78 104 C48 100 26 124 24 162 C23 178 28 192 36 202 C35 186 38 172 44 160 C42 176 44 190 50 200 C54 180 58 160 66 142 C72 130 78 122 82 116 Z"/>
+
+  <path fill="url(#pelagem-principal)" d="M78 104 C94 92 118 98 144 100 C162 101 176 92 188 78 C198 62 208 42 222 30 L236 44 C228 66 220 88 214 112 C212 132 202 146 184 148 C156 150 126 148 102 144 C82 140 72 122 78 104 Z"/>
+  <path fill="none" stroke="#fbbf24" stroke-width="2" stroke-linecap="round" opacity="0.45" d="M86 103 C106 95 132 102 162 100"/>
+
+  <path fill="url(#crina-grad)" d="M176 94 C178 72 190 48 212 32 L222 26 C212 40 204 54 200 68 C208 62 214 54 218 46 C214 64 204 80 190 92 C184 96 180 96 176 94 Z"/>
+
+  <path fill="#78350f" d="M220 31 L218 14 L227 26 Z"/>
+  <path fill="url(#pelagem-principal)" d="M225 30 L228 12 L235 28 Z"/>
+  <path fill="#451a03" d="M227 27 L228 17 L232 26 Z" opacity="0.6"/>
+
+  <path fill="url(#pelagem-principal)" d="M220 30 C232 25 244 30 252 42 L272 68 C276 74 272 82 265 84 L252 84 C246 83 242 79 238 75 C231 80 221 77 216 67 C211 57 214 40 220 30 Z"/>
+  <path fill="url(#crina-grad)" d="M224 28 C234 22 246 27 250 36 C242 34 234 33 224 28 Z"/>
+
+  <circle cx="239" cy="43" r="3" fill="#1c0a00"/>
+  <circle cx="240" cy="42" r="1" fill="#fef3c7"/>
+  <ellipse cx="266" cy="72" rx="2.5" ry="1.6" transform="rotate(-28 266 72)" fill="#270e02"/>
+  <path fill="none" stroke="#451a03" stroke-width="1.5" stroke-linecap="round" d="M255 81 C260 81 264 79 267 77"/>
+  <path fill="none" stroke="#78350f" stroke-width="1.8" stroke-linecap="round" d="M224 54 C221 63 226 70 234 70"/>
+
+  <path fill="url(#pelagem-principal)" d="M102 134 C94 152 98 174 108 192 L114 228 L123 228 L120 190 C122 172 126 154 124 136 Z"/>
+  <path fill="#270e02" d="M113 227 L123 227 L126 235 L111 235 Z"/>
+
+  <path fill="url(#pelagem-principal)" d="M184 134 C182 154 184 174 186 194 L186 228 L195 228 L197 194 C200 174 204 154 202 134 Z"/>
+  <path fill="#270e02" d="M185 227 L195 227 L199 235 L184 235 Z"/>
+</svg>
